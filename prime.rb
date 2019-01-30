@@ -6,7 +6,8 @@ def prime?(number)
 end
 elsif number < -2
   i = (number...-2).to_a
-  i.all? {|num| number % num !=0 }
-
+  i.all? do |num| 
+    number % num !=0 }
+end
 end
 end
