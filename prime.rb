@@ -3,7 +3,7 @@ def prime?(number)
   i.each do |num|
   residual = number % num
   break if residual == 0
-else true
+true
 end
 end
     false
