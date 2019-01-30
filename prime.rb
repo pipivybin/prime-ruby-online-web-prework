@@ -1,4 +1,12 @@
 def prime?(number)
+  i = [2..number]
+  i.each do
+
+
+
+
+    
+  end
   i < number
   loop do
   i = 2
