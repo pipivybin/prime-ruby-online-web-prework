@@ -2,8 +2,9 @@ def prime?(number)
   i < number
   loop do
   i = 2
-  if number % i == 0
+  if number % i != 0
   else i += 1
+    
 
 end
 end
