@@ -6,17 +6,5 @@ def prime?(number)
   if residual != 0
       false
     else true
-
-
-
-
-  end
-  i < number
-  loop do
-  i = 2
-  if number % i != 0
-  else i += 1
-
-
-end
+end 
 end
