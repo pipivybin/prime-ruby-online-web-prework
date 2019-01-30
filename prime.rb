@@ -1,9 +1,6 @@
 def prime?(number)
   i = (2...number).to_a
-  i.each do |num|
-  if number % num != 0
-      false
-    else true
-end
+  i.all? do |num|
+  number % num != 0
 end
 end
