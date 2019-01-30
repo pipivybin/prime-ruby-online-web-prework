@@ -9,5 +9,5 @@ elsif number < -2
   i.all? do |num|
     number % num !=0 }
 end
-end
+
 end
