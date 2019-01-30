@@ -4,3 +4,5 @@ def prime?(number)
   i.all? do |num|
   number % num != 0
 end
+end
+end
