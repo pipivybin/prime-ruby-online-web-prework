@@ -5,6 +5,6 @@ def prime?(number)
   break if residual == 0
 else true
 end
-    false
 end
+    false
 end
