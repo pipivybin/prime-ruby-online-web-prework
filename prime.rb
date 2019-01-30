@@ -6,5 +6,5 @@ def prime?(number)
   if residual != 0
       false
     else true
-end 
+end
 end
