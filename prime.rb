@@ -7,7 +7,7 @@ def prime?(number)
 elsif number < -2
   i = (number...-2).to_a
   i.all? do |num|
-    number % num !=0 }
+    number % num !=0 
   end
 end
 end
