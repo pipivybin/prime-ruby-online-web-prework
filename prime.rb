@@ -10,3 +10,4 @@ else number < -2
     number % num !=0 }
 end
 end
+end
